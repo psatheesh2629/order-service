@@ -1,0 +1,27 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: order-service
+  cloud:
+    consul:
+      discovery:
+        enabled: true
+        fail-fast: true
+        instance-id: "${spring.application.name}-${server.port}"
+        health-check-critical-timeout: "1m"
+      config:
+        profile-separator: '::'
+        format: YAML
+        data-key: data
+        prefix: config
+      host: localhost
+      port: 8500
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - refresh
+        - health
+        - info
