@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.infy.ms.order</groupId>
-	<artifactId>order-service</artifactId>
+	<artifactId>order-service15</artifactId>
 	<version>1.0.0.RELEASE</version>
 	<name>order-service</name>
 	<description>Spring Boot Project for Order Service</description>
