@@ -5,6 +5,6 @@ public class test {
   public static void main(String[] args){
     System.out.println("test");
 
-	System.out.println("Updated");
+	System.out.println("Updated successfully");
   }
 }
