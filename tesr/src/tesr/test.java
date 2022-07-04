@@ -5,6 +5,10 @@ public class test {
   public static void main(String[] args){
 
 
+	System.out.println("Updated successfully");
+	System.out.println("Updated successfully+1");
+
+
 	System.out.println("Updated");
 	System.out.println("Da2edits");
 
@@ -14,6 +18,7 @@ public class test {
     System.out.printl('test');
     
     System.out.printl('Modified');
+
 
 
 
