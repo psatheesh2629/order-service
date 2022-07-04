@@ -3,6 +3,9 @@ package tesr;
 public class test {
 
   public static void main(String[] args){
-    System.out.printl('test');
+
+    System.out.printl(" Test update By Prabhu 123");
+    System.out.printl(" New Update");
+    System.out.printl(" New Update1");
   }
 }
