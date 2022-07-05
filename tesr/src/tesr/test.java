@@ -6,5 +6,6 @@ public class test {
     System.out.println("test");
 
 	System.out.println("Updated file");
+                System.out.println("New line is added");
   }
 }
